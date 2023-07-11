@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="fastRequestCurrentParamGroup">
+    <option name="bodyParamMap">
+      <map>
+        <entry key="categoryDTO">
+          <value>
+            <Object />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="className" value="com.digital.DigitaBooking.controllers.CategoryController" />
+    <option name="filePath" value="" />
+    <option name="method" value="saveCategory" />
+    <option name="methodType" value="POST" />
+    <option name="module" value="DigitaBooking.main" />
+    <option name="originUrl" value="/category/" />
+    <option name="returnDocument" value="{&quot;status&quot;:{},&quot;body&quot;:{}}" />
+    <option name="url" value="/category/" />
+  </component>
+</project>

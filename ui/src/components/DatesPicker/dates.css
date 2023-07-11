@@ -1,0 +1,30 @@
+.dates {
+  text-align: start;
+  padding-bottom: 5.2rem;
+}
+.dates__title {
+  text-align: start;
+  margin-left: 1rem;
+}
+
+.dates__calendar {
+  border-top: 1.5px solid var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4rem;
+  padding-inline: 1.5rem;
+}
+.dates__button{
+  text-align: center;
+}
+.dates__calendar .btn__secondary{
+  width: 20rem;
+}
+@media (min-width: 768px) {
+  .dates__calendar {
+    flex-direction: row;
+    align-items: center;
+  }
+
+}

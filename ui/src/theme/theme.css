@@ -1,0 +1,52 @@
+:root {
+  --color-primary: #6D9886;
+  --color-secondary: #F2E7D5;
+  --color-tertiary: #F7F7F7;
+  --color-font:#393E46;
+  --color-error: #ED2B2A;
+  --font-family-base: 'Poppins',
+    sans-serif;
+  --font-family-text:'Roboto',
+    sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 10px;
+}
+
+html{
+  font-size: calc(14px + (28 - 14) * ((100vw - 320px) / (3840 - 320)));
+}
+
+body {
+  margin: 0;
+  color: var(--color-font);
+  background: var(--color-tertiary) ;
+  min-height: 100%;
+}
+h1, h2, h3, h4{
+  font-family: var(--font-family-base);
+  font-style: normal;
+  font-weight: 700;
+}
+h1 {
+  font-size: calc(3rem + (3.6 - 3) * ((100vw - 320px) / (3840 - 320)));
+}
+
+h2 {
+  font-size: calc(2.3rem + (2.8 - 2.3) * ((100vw - 320px) / (3840 - 320)));
+}
+
+h3 {
+  font-size: calc(2rem + (2.5 - 2) * ((100vw - 320px) / (3840 - 320)));
+}
+
+h4 {
+  font-size: calc(1.8rem + (2 - 1.8) * ((100vw - 320px) / (3840 - 320)));
+}
+p, span, button, label, input, a{
+  font-family: var(--font-family-text);
+}
+
+table {
+  font-family: var(--font-family-base);
+}

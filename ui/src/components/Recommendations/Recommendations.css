@@ -1,0 +1,26 @@
+.recommendations__content{
+display: grid;
+grid-template-columns: 1fr;
+justify-items: center;
+gap: 1rem;
+padding-inline: 1.5rem;
+}
+.recommendations__buttons{
+  display: flex;
+  justify-content: space-around;
+  margin-inline: 1rem;
+  margin-top: 3rem;
+}
+.recommendations__buttons p{
+  width: 12rem;
+}
+@media (min-width: 414px) {
+  .recommendations__content {
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 768px) {
+  .recommendations__content {
+    grid-template-columns: 1fr 1fr;
+  }
+}

@@ -1,0 +1,66 @@
+.form__container {
+  margin:0;
+  padding: 0;
+  box-sizing: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.failure__container {
+  width: 300px;
+  height: 300px;
+  padding: 6em 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-secondary);
+  border: 2px solid var(--color-primary);
+  border-radius: 20px;
+}
+.failure__container h1 {
+  margin:0;
+}
+
+.failure__container p {
+  font-size: 1.6rem;
+}
+
+.failure__container button {
+  width: 20rem;
+}
+
+.failure__container button:hover {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  transition: 0.3s ease-in-out all;
+}
+
+.error-icon {
+  width: 50px;
+  height: 50px;
+  color: var(--color-error);
+}
+
+.text__container {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .failure__container {
+    width: 500px;
+    height: 500px;
+    padding: 0em;
+  }
+
+  .failure__container button {
+    width:20rem; /* Cambia el ancho del botón a auto */
+  
+  }
+}
+
+

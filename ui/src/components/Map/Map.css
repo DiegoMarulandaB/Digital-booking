@@ -1,0 +1,8 @@
+.map__title {
+  text-align: start;
+  margin-left: 1rem;
+}
+
+.map__container {
+  border-top: 1.5px solid var(--color-primary);
+}

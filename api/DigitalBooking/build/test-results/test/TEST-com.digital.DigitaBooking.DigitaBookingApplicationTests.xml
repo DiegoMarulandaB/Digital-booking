@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.digital.DigitaBooking.DigitaBookingApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-29T20:33:01" hostname="Jeraldinnes-MacBook-Air.local" time="0.115">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.digital.DigitaBooking.DigitaBookingApplicationTests" time="0.115"/>
+  <system-out><![CDATA[17:32:48.597 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Neither @ContextConfiguration nor @ContextHierarchy found for test class [DigitaBookingApplicationTests]: using SpringBootContextLoader
+17:32:48.599 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader -- Could not detect default resource locations for test class [com.digital.DigitaBooking.DigitaBookingApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:32:48.600 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.digital.DigitaBooking.DigitaBookingApplicationTests]: DigitaBookingApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:32:48.612 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using ContextCustomizers for test class [DigitaBookingApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+17:32:48.648 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider -- Identified candidate component class: file [/Users/jeraldinnemolleda/Downloads/equipo-10/api/DigitalBooking/build/classes/java/main/com/digital/DigitaBooking/DigitaBookingApplication.class]
+17:32:48.655 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.digital.DigitaBooking.DigitaBookingApplication for test class com.digital.DigitaBooking.DigitaBookingApplicationTests
+17:32:48.700 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using TestExecutionListeners for test class [DigitaBookingApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+17:32:48.700 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener -- Before test class: class [DigitaBookingApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.6)
+
+2023-06-29T17:32:48.819-03:00  WARN 90675 --- [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/jeraldinnemolleda/.gradle/caches/modules-2/files-2.1/org.json/json/20230227/7a0d4aca76513d8ce81f9b044ce8126b84809ad8/json-20230227.jar!/org/json/JSONObject.class
+	jar:file:/Users/jeraldinnemolleda/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-06-29T17:32:48.825-03:00  INFO 90675 --- [    Test worker] c.d.D.DigitaBookingApplicationTests      : Starting DigitaBookingApplicationTests using Java 17.0.7 with PID 90675 (started by jeraldinnemolleda in /Users/jeraldinnemolleda/Downloads/equipo-10/api/DigitalBooking)
+2023-06-29T17:32:48.825-03:00  INFO 90675 --- [    Test worker] c.d.D.DigitaBookingApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-06-29T17:32:49.143-03:00  INFO 90675 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-29T17:32:49.186-03:00  INFO 90675 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 11 JPA repository interfaces.
+2023-06-29T17:32:49.428-03:00  INFO 90675 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-29T17:32:49.447-03:00  INFO 90675 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-29T17:32:49.560-03:00  INFO 90675 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-29T17:32:51.994-03:00  INFO 90675 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76af34b5
+2023-06-29T17:32:51.997-03:00  INFO 90675 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-29T17:32:52.405-03:00  INFO 90675 --- [    Test worker] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-06-29T17:32:59.756-03:00  INFO 90675 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-29T17:32:59.772-03:00  INFO 90675 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-29T17:33:00.421-03:00  WARN 90675 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-29T17:33:00.462-03:00  INFO 90675 --- [    Test worker] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation should only be used on methods with parameters: public java.lang.String com.digital.DigitaBooking.jwt.JwtConfiguration.secretKey()
+2023-06-29T17:33:00.463-03:00  INFO 90675 --- [    Test worker] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation should only be used on methods with parameters: public java.lang.Long com.digital.DigitaBooking.jwt.JwtConfiguration.expiration()
+2023-06-29T17:33:01.046-03:00  INFO 90675 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@519b726a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@34272839, org.springframework.security.web.context.SecurityContextHolderFilter@5146ae5e, org.springframework.security.web.header.HeaderWriterFilter@6a4bd9e4, org.springframework.web.filter.CorsFilter@708378cc, org.springframework.security.web.authentication.logout.LogoutFilter@3146c61d, com.digital.DigitaBooking.jwt.JwtRequestFilter@1150b923, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@439c706, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4eaf08f4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17eb35fa, org.springframework.security.web.session.SessionManagementFilter@4eff65ce, org.springframework.security.web.access.ExceptionTranslationFilter@1dfadb7, org.springframework.security.web.access.intercept.AuthorizationFilter@77524169]
+2023-06-29T17:33:01.254-03:00  INFO 90675 --- [    Test worker] c.d.D.DigitaBookingApplicationTests      : Started DigitaBookingApplicationTests in 12.532 seconds (process running for 13.068)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

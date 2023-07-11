@@ -1,0 +1,26 @@
+.admin__card{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #F2E7D560;
+  border-radius: 1rem;
+  margin-block: 1rem;
+}
+.admin__card-icon{
+  background-color: var(--color-primary);
+  color: var(--color-tertiary);
+  padding: .8rem;
+  border-radius: 50%;
+}
+.admin__card-stats{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.admin__card-stats p{
+  font-size: 1.4rem;
+}
+.admin__card-stats h3{
+  margin-block:.5rem;
+}

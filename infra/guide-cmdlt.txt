@@ -1,0 +1,25 @@
+Asegúrate de actualizar los valores en la configuración con tu usuario y grupo de Linux, y la ruta de tu aplicación Java.
+
+Guarde y cierre el archivo de configuración.
+
+Recargue la configuración de systemd para que reconozca el nuevo archivo de servicio:
+
+sudo systemctl daemon-reload
+
+Inicie el servicio con systemd:
+
+sudo systemctl start myapp.service
+
+Verifique el estado del servicio para asegurarse de que se esté ejecutando correctamente:
+
+sudo systemctl status myapp.service
+
+Si todo está configurado correctamente, la salida de este comando debería mostrar que el servicio está activo y en ejecución.
+
+También puedes habilitar el servicio para que se inicie automáticamente cuando se inicie el sistema:
+
+bash
+
+sudo systemctl enable myapp.service
+
+De esta manera, tu aplicación Java se ejecutará como un servicio de systemd y se iniciará automáticamente cuando se inicie el sistema. Puedes usar los comandos de systemd para controlar el servicio, por ejemplo, para detener, reiniciar o verificar el estado del servicio en cualquier momento.

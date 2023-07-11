@@ -1,0 +1,58 @@
+.search {
+  padding-block: 2rem;
+  background-color: var(--color-secondary);
+  padding-inline: 1rem;
+  color: var(--color-primary);
+  margin-top: 3rem;
+}
+.search-form {
+  display: grid;
+  grid-template-areas:
+    "input-location"
+    "input-date"
+    "button";
+  grid-template-columns: repeat(1, 1fr);
+  align-items: end;
+}
+.input-calendar {
+  grid-area: input-date;
+  cursor: pointer;
+}
+.search-form button {
+  grid-area: button;
+  margin-top: 1rem;
+}
+.search__select{
+  grid-area: input-location;
+  font-size: 1.4rem;
+  border: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+  line-height: 1.5;
+  color: var(--color-font);
+}
+
+@media (min-width: 414px) {
+  .search {
+    padding-inline: 3rem;
+  }
+  .search-form {
+    grid-template-columns: repeat(2, minmax(16rem, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "input-location input-date"
+      "button button";
+    gap: 1rem;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .search-form {
+    grid-template-areas: "input-location input-date button";
+    grid-template-columns: repeat(2, minmax(25rem, 44rem)) 20rem;
+    grid-template-rows: 1fr;
+  }
+}
+.calendar__search {
+  z-index: 1;
+}

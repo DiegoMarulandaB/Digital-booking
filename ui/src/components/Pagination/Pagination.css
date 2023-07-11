@@ -1,0 +1,17 @@
+.page__content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-number {
+  padding: 1rem;
+  margin: 0 .5rem;
+  border: none;
+  border-radius: .5rem;
+}
+.page-number.active {
+  background-color: var(--color-primary);
+  color: var(--color-tertiary);
+  font-size: 1.2rem;
+  font-weight: 700;
+}

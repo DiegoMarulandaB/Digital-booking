@@ -1,0 +1,27 @@
+.sidebar__header{
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  padding-inline: 1rem;
+  border-bottom: 1px solid #00000030;
+}
+.sidebar__img{
+  border-radius: 50%;
+  width: 6.5rem;
+  height: 6.5rem;
+}
+.sidebar__content{
+  text-align: start;
+}
+.sidebar__content h5{
+  cursor: pointer;
+}
+.sidebar__content a{
+  margin-block: 1rem;
+}
+.sidebar__content p{
+  white-space: initial;
+  opacity: .7;
+}

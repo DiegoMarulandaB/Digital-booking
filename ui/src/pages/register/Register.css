@@ -1,0 +1,12 @@
+.form_title {
+	margin-top: 7rem;
+}
+.admin__form {
+	width: 50rem;
+	gap: 5px;
+	margin: 0 auto;
+	margin-top: 6rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2rem;
+}

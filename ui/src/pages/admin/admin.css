@@ -1,0 +1,31 @@
+.admin__container{
+  padding: 2rem;
+}
+.welcome{
+  padding: 2rem;
+  background-color: #F2E7D560;
+  border-radius: 1rem;
+  text-align: start;
+}
+.welcome__content h1{
+  margin-block: 0;
+}
+.welcome__content p{
+  font-size: 1.4rem;
+  margin-block: .5rem;
+}
+.admin__stats{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.stats__container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  background-color: #F2E7D560;
+  padding: 2rem;
+}
+.chart__container{
+  height: 28rem;
+}

@@ -1,0 +1,70 @@
+# flyctl launch added from .idea\.gitignore
+# Default ignored files
+.idea\shelf
+.idea\workspace.xml
+
+# flyctl launch added from api\DigitalBooking\.gitignore
+api\DigitalBooking\**\HELP.md
+api\DigitalBooking\**\.gradle
+api\DigitalBooking\**\build
+!api\DigitalBooking\**\gradle\wrapper\gradle-wrapper.jar
+!api\DigitalBooking\**\**\src\main\**\build
+!api\DigitalBooking\**\**\src\test\**\build
+
+### STS ###
+api\DigitalBooking\**\.apt_generated
+api\DigitalBooking\**\.classpath
+api\DigitalBooking\**\.factorypath
+api\DigitalBooking\**\.project
+api\DigitalBooking\**\.settings
+api\DigitalBooking\**\.springBeans
+api\DigitalBooking\**\.sts4-cache
+api\DigitalBooking\**\bin
+!api\DigitalBooking\**\**\src\main\**\bin
+!api\DigitalBooking\**\**\src\test\**\bin
+
+### IntelliJ IDEA ###
+api\DigitalBooking\**\.idea
+api\DigitalBooking\**\*.iws
+api\DigitalBooking\**\*.iml
+api\DigitalBooking\**\*.ipr
+api\DigitalBooking\**\out
+!api\DigitalBooking\**\**\src\main\**\out
+!api\DigitalBooking\**\**\src\test\**\out
+
+### NetBeans ###
+api\DigitalBooking\nbproject\private
+api\DigitalBooking\nbbuild
+api\DigitalBooking\dist
+api\DigitalBooking\nbdist
+api\DigitalBooking\.nb-gradle
+
+### VS Code ###
+api\DigitalBooking\**\.vscode
+
+# flyctl launch added from ui\.gitignore
+# Logs
+ui\**\logs
+ui\**\*.log
+ui\**\npm-debug.log*
+ui\**\yarn-debug.log*
+ui\**\yarn-error.log*
+ui\**\pnpm-debug.log*
+ui\**\lerna-debug.log*
+
+ui\**\node_modules
+ui\**\dist
+ui\**\dist-ssr
+ui\**\*.local
+
+# Editor directories and files
+ui\**\.vscode\*
+!ui\**\.vscode\extensions.json
+ui\**\.idea
+ui\**\.DS_Store
+ui\**\*.suo
+ui\**\*.ntvs*
+ui\**\*.njsproj
+ui\**\*.sln
+ui\**\*.sw?
+fly.toml

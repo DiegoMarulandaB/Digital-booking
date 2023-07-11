@@ -1,0 +1,28 @@
+button{
+  width: 100%;
+  padding-block: .8rem;
+  font-size: 1.6rem;
+  border: 0;
+  border-radius: .5rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+  font-weight: 700;
+  cursor: pointer;
+  height: 4rem;
+}
+button:hover{
+  transform: scale(0.98);
+}
+.btn__primary{
+  background: var(--color-primary);
+  color: white
+}
+.btn__secondary{
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+}
+button:disabled{
+  border: 2px solid var(--color-font);
+  color: var(--color-font);
+  opacity: .5;
+   transform: scale(1);
+}

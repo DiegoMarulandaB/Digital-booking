@@ -1,0 +1,55 @@
+.form__container {
+  margin:0;
+  padding: 0;
+  box-sizing: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.success__container {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-secondary);
+  border: 2px solid var(--color-primary);
+  border-radius: 20px;
+}
+
+.success__container p {
+  font-size: 1.6rem;
+}
+
+.success__container button {
+  width: 20rem;
+}
+
+.success__container button:hover {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  transition: 0.3s ease-in-out all;
+}
+
+.airplane-icon  {
+  width: 50px;
+  height: 50px;
+  color: var(--color-primary);
+}
+
+.text__container {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  
+  .success__container {
+    width: 500px;
+    height: 500px;
+  }
+}

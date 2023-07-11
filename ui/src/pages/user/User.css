@@ -1,0 +1,39 @@
+.user__section{
+  overflow-y: scroll;
+  padding-bottom: 6rem;
+}
+.user__title{
+  margin-block: 1rem;
+}
+.user__section img {
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+.user__section span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 2rem;
+}
+
+.user__section span h5 {
+  font-weight: 500;
+  color: var(--color-primary);
+}
+
+.user__section span p {
+  font-weight: 400;
+}
+
+.user__section button {
+  max-width: 100px;
+  margin: 10px;
+}
+@media (min-width: 768px){
+  .user__section{
+    overflow-y: none;
+    padding-bottom: 2rem;
+  }
+}

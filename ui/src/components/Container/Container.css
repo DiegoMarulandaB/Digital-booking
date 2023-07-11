@@ -1,0 +1,11 @@
+.container{
+  height: 100vh;
+  box-sizing: border-box;
+  padding-top: 5.6rem;
+  padding-bottom: 4.5rem;
+}
+@media (min-width: 414px) {
+}
+@media (min-width: 768px) {
+
+}

@@ -1,0 +1,42 @@
+.admin-layout{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+}
+.admin-menu{
+  max-width: 25rem;
+  background: var(--color-secondary);
+  display: flex;
+  flex-direction: column;
+}
+.admin-menu ul{
+  width: 15rem;
+  box-sizing: border-box;
+  list-style: none;
+  text-align: start;
+  padding-inline: 1rem;
+  width: 100%;
+}
+.admin-menu li{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.admin-menu a{
+  display: block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: var(--color-font);
+  margin-block: 2rem;
+  
+}
+.admin-menu li:hover, .admin-menu a:hover{
+  color: var(--color-primary);
+  font-weight: 600;
+}
+.admin-content{
+width: 100%;
+overflow-y: auto;
+/* margin-bottom: 3rem; */
+}

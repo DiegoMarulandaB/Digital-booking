@@ -1,0 +1,8 @@
+.login__form {
+	max-width: 320px;
+	gap: 15px;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	margin-top: 5vh;
+}
