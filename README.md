@@ -1,6 +1,7 @@
 # Digital-booking
 
-Spanish
+## Spanish:
+
 Este es el MVP como proyecto final de la carrera Certified Tech Developer en Digital House.
 
 Digital Booking Vive la Aventura es un sitio web que ofrece la posibilidad de reservar tours y actividades en diferentes países, brindando a los usuarios la oportunidad de vivir experiencias emocionantes y enriquecedoras. 
@@ -19,7 +20,7 @@ usando la metodologia àgil (Scrum), con 4 sprint, cada uno de estos spring con 
 
 
 
-English:
+## English:
 
 This is the final project of the Digital House Certified Tech Developer career, using the agile methodology (Scrum), with 4 sprints, each of these springs lasting two weeks.
 Technologies used for the development of the site:
