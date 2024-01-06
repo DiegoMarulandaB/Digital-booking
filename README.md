@@ -18,7 +18,7 @@ usando la metodologia àgil (Scrum), con 4 sprint, cada uno de estos spring con 
 · Testing: Jest.js, Postman, React Testing Library, Selenium IDE
 · Infraestructura: AWS.
 
-Presentación del demo ante un representante de Globant. 06/04/2023.
+Presentación de la demo ante un representante de Globant. 06/04/2023.
 
 
 
