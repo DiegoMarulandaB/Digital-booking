@@ -28,7 +28,7 @@ This is the MVP as the final project of the Certified Tech Developer degree at D
 
 Digital Booking Vive la Aventura is a website that offers the possibility of booking tours and activities in different countries, giving users the opportunity to live exciting and enriching experiences.
 
-Technologies used for the development of the site:
+💻  Technologies used for the development of the site:
 
 · IDES: Intellij Idea, Visual studio code
 · Version control systems: Git, Gitlab
