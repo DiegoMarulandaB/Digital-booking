@@ -18,6 +18,8 @@ usando la metodologia àgil (Scrum), con 4 sprint, cada uno de estos spring con 
 · Testing: Jest.js, Postman, React Testing Library, Selenium IDE
 · Infraestructura: AWS.
 
+Rol: Frontend y lider de equipo.
+
 Presentación de la demo ante un representante de Globant. 06/04/2023.
 
 
@@ -37,6 +39,8 @@ Digital Booking Vive la Aventura is a website that offers the possibility of boo
 · Database: MYSQL.
 · Testing: Jest.js, Postman, React Testing Library, Selenium IDE
 · Infrastructure: AWS.
+
+Role: Frontend and team leader.
 
 Presentation of the demo before a Globant representative. 04/06/2023.
 
